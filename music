@@ -1,0 +1,12 @@
+<audio id="music" controls autoplay>
+    <source src="lofihiphop.mp3" type="audio/mpeg">
+</audio>
+<br/>
+<script>
+var music=document.getElementById("music").autoplay;
+    music.play();
+function playaudio(){
+    music.play();
+}
+console.log(music);
+</script>
